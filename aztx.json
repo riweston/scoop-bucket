@@ -1,19 +1,19 @@
 {
-    "version": "0.8.2",
+    "version": "0.9.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/0.8.2/aztx_0.8.2_windows_386.tar.gz",
+            "url": "https://github.com/riweston/aztx/releases/download/0.9.0/aztx_0.9.0_windows_386.tar.gz",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "a1355d59f250e99732b462715c23bf7432f782e95d9d5004bc145a5d5234ecf0"
+            "hash": "a20f7e36aa81e35f5f8f0e6fff1da3d1842d2ad0c9b173904047c7fb023af265"
         },
         "64bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/0.8.2/aztx_0.8.2_windows_amd64.tar.gz",
+            "url": "https://github.com/riweston/aztx/releases/download/0.9.0/aztx_0.9.0_windows_amd64.tar.gz",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "5cd431abe793bbeb5864cc4db2ee118a9bd28350307f21f559f981cd4b023e25"
+            "hash": "00d8aba03a66c7269e35fb6256d8bff7e38592f2c530dc8e083225026918f898"
         }
     },
     "homepage": "https://github.com/riweston/aztx",
