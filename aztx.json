@@ -1,29 +1,33 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.0.1/aztx_1.0.1_windows_386.tar.gz",
+            "url": "https://github.com/riweston/aztx/releases/download/1.0.2/aztx_1.0.2_windows_386.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "27474b7bf7f8f24c371b6fe34de25ffa139fb9d68d2c644e15a5d8efd97bfe1c"
+            "hash": "e411e5ff80da205cc899e5a063455bf2b8ad63a79ef5a37455c742b874532c66"
         },
         "64bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.0.1/aztx_1.0.1_windows_amd64.tar.gz",
+            "url": "https://github.com/riweston/aztx/releases/download/1.0.2/aztx_1.0.2_windows_amd64.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "14cea260fc15f009691c46e4bf59db3262d92e8686ecad7815e8339e66216a09"
+            "hash": "1f30c239c15ad7d4744b997cc3a16d55d42e50eaf0455e7bd132bd78466b2bee"
         },
         "arm64": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.0.1/aztx_1.0.1_windows_arm64.tar.gz",
+            "url": "https://github.com/riweston/aztx/releases/download/1.0.2/aztx_1.0.2_windows_arm64.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "689856ca9791e0b815857cb91dbc18bfdc4ef7d8c06b430935294911c5187b5c"
+            "hash": "59d288b32752ff3756edd0f6beacb015fed8b0b4360496b3f4cc8e3dbb4896bc"
         }
     },
     "homepage": "https://github.com/riweston/aztx",
-    "license": "Apache",
-    "description": "This tool is a helper for azure-cli that leverages fzf for a nice interface to switch between subscription contexts."
+    "license": "MIT",
+    "description": "This tool is a helper for azure-cli that leverages fzf for a nice interface to switch between subscription contexts.",
+    "depends": [
+        "azure-cli",
+        "fzf"
+    ]
 }
