@@ -1,26 +1,26 @@
 {
-    "version": "1.4.0",
+    "version": "1.5.0",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.4.0/aztx_1.4.0_windows_386.zip",
+            "url": "https://github.com/riweston/aztx/releases/download/1.5.0/aztx_1.5.0_windows_386.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "db9a1ea1fc807f80be88fff03ede8ba901fb5acbc19402aca81f8d9789dfb1d0"
+            "hash": "9d25334b5bc75ffa057e9362c7c58096a392ade9d7884d01054e31dd678424a8"
         },
         "64bit": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.4.0/aztx_1.4.0_windows_amd64.zip",
+            "url": "https://github.com/riweston/aztx/releases/download/1.5.0/aztx_1.5.0_windows_amd64.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "ada927f831972540b82ea187baba46be25d996a2014776d4e74299fe2f70e891"
+            "hash": "82b575ee1772999939252a84b68231a21021bb06966c5d4551fbf1368d495b62"
         },
         "arm64": {
-            "url": "https://github.com/riweston/aztx/releases/download/1.4.0/aztx_1.4.0_windows_arm64.zip",
+            "url": "https://github.com/riweston/aztx/releases/download/1.5.0/aztx_1.5.0_windows_arm64.zip",
             "bin": [
                 "aztx.exe"
             ],
-            "hash": "aab66140d983e14e575851addd85b3dd3004e30de0c9cde9664318b6c225da73"
+            "hash": "b39787b67c1abd26f043c5e32f6f835905ab2a91c731017b35d00deff8905524"
         }
     },
     "homepage": "https://github.com/riweston/aztx",
